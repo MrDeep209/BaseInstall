@@ -1,2 +1,2 @@
 # BaseInstall
-The first things I do when presented with a clean debian based installation. InstallNoUser.sh is if the user was created already.
+Automating an install of a clean ubuntu/debian based server. InstallNoUser.sh is the same script without the hostname and user added.
