@@ -2,7 +2,7 @@
 
 # Update and install software
 apt-get -y update ; apt-get -y dist-upgrade
-apt-get install htop fail2ban tmux screen vim ntp sudo dnsutils -y
+apt-get -y install htop fail2ban tmux screen vim ntp sudo dnsutils software-properties-common
 systemctl enable fail2ban
 systemctl start fail2ban
 systemctl enable ntp
